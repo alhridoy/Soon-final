@@ -1,0 +1,190 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+ 
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+ 
+    .logo img {
+
+    position: relative;
+    width: 128px;
+
+
+}
+.kids img {
+
+    max-width: 600px;
+
+}
+.box img {
+
+    width: 359px;
+    position: relative;
+    margin-left: 136px;
+    margin-bottom: 65px;
+
+}
+.box-content {
+
+    position: absolute;
+    top: 18px;
+    left: 166px;
+    width: 260px;
+    height: 42px;
+
+}
+.up {
+
+    position: relative;
+    bottom: 57px;
+
+}
+
+.list ul li a img {
+
+    width: 65px;
+    height: 65px;
+    line-height: 85px;
+
+}
+.kids {
+    top: -284px;
+}
+.box {
+
+    position: relative;
+    bottom: 65px;
+
+}
+.list {
+
+    position: relative;
+    padding-top: 0px;
+    z-index: 9999999999;
+    margin-left: 376px;
+    bottom: 100px;
+
+
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.logo img {
+
+    position: relative;
+    width: 128px;
+
+}
+.soon img {
+
+    width: 141px;
+
+}
+.mb-20{
+	margin-bottom: 20px;
+}
+.kids {
+
+    left: 31px;
+    position: absolute;
+    top: -154px;
+
+}
+.kids img {
+
+    max-width: 460px;
+
+}
+.list ul li a img {
+
+    width: 60px;
+    height: 60px;
+    
+
+}
+.box-content {
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 259px;
+    height: 42px;
+
+}
+.box-content p {
+
+    padding: 0 8px;
+    font-size: 16px;
+    line-height: 18px;
+
+}
+.list {
+
+    position: relative;
+    padding-top: 100px;
+    padding-left: 80px;
+
+}}
+
+}
+/*mobile-layout*/
+@media only screen and (max-width: 767px) { 
+.logo img {
+
+    position: relative;
+    width: 128px;
+
+}
+.soon img {
+
+    width: 141px;
+
+}
+.mb-20{
+	margin-bottom: 20px;
+}
+.kids {
+
+    left: 31px;
+    position: absolute;
+    top: -154px;
+
+}
+.kids img {
+
+    max-width: 460px;
+
+}
+.list ul li a img {
+
+    width: 60px;
+    height: 60px;
+    
+
+}
+.box-content {
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 259px;
+    height: 42px;
+
+}
+.box-content p {
+
+    padding: 0 8px;
+    font-size: 16px;
+    line-height: 18px;
+
+}
+.list {
+
+    position: relative;
+    padding-top: 100px;
+    padding-left: 80px;
+
+}
+}

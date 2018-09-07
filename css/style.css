@@ -1,0 +1,82 @@
+
+body,
+html {
+    overflow-x: hidden
+}
+
+body {
+    font-family: josefin sans, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.7;
+    position: relative;
+    color: #898989
+}
+img {
+  max-width: 100%;
+  height:auto;
+  vertical-align: middle;
+}
+
+a {
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out
+}
+
+.headbg{
+    background: url(../img/bg-1.png) no-repeat center bottom;
+    height: 100vh;
+    position: relative;
+    z-index: 1 !important;
+
+}
+#header{
+ position: relative;
+   z-index: 9999999999 !important;
+    height: 100vh;
+  
+    background: url(../img/bg-3.png) no-repeat center top;
+}
+.box{
+    position: relative;
+}
+.box img {
+    width: 404px;
+    position: relative;
+}
+.box-content {
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    width: 259px;
+    height: 42px;
+}
+.box-content p {
+    padding: 0 6px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+.kids {
+    left: 100px;
+    position: absolute;
+    top: -228px;
+}
+.kids img{
+    max-width: 1000px;
+}
+
+.list {
+    position: relative;
+    padding-top: 50px;
+    padding-left: 120px;
+}
+.list ul li a img {
+   width: 85px;
+    height: 85px;
+    line-height: 85px;
+}
